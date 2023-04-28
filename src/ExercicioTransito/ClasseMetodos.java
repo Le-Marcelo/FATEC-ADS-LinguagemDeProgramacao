@@ -6,10 +6,11 @@ public class ClasseMetodos {
     Estatistica[] estatistica = new Estatistica[10];        //Instanciando 10 "estatisticas"
 
     void CadastrarEstatistica(){
-        for (int i = 0; i < 10; i++)                        //Construindo as classes
+        for (int i = 0; i < 10; i++){
+            //Construindo as classes
             estatistica[i] = new Estatistica();
 
-        for (int i = 0; i < 10; i++){                       //Inserir Dados
+            //Inserir Dados
             estatistica[i].codigoCidade = Integer.parseInt(JOptionPane.showInputDialog("Digite o código da cidade da " + (i + 1) + "ª estatistica:"));
             estatistica[i].nomeCidade = JOptionPane.showInputDialog("Digite o nome da cidade da " + (i + 1) + "ª estatistica:");
             estatistica[i].qtdAcidentes = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de acidentes da " + (i + 1) + "ª estatistica:"));

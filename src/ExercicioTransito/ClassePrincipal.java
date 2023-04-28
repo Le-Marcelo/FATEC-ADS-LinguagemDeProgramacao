@@ -30,6 +30,7 @@ public class ClassePrincipal {
                     metodo.AcimaMedia();
                     break;
                 case 9:
+                    System.exit(0);
                     break;
                 default:
                     JOptionPane.showMessageDialog(null,"Opção inválida, tente novamente!");
