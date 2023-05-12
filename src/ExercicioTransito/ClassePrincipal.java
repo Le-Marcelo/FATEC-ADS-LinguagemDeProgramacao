@@ -1,10 +1,11 @@
 package ExercicioTransito;
 
 import javax.swing.JOptionPane;
+import java.io.*;
 
 public class ClassePrincipal {
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         ClasseMetodos metodo = new ClasseMetodos();
         int opcao;
         do{           
